@@ -6,7 +6,7 @@
   <remote  name="github-generic"
            fetch="https://github.com/" />
 
-  <default revision="refs/heads/master" remote="github" />
+  <default revision="refs/heads/main" remote="github" />
 
   <project name="MAIK" remote="github" path="ai/MAIK" revision="main" groups="general"/>
   <project name="docker" remote="github" path="toolchain/docker" revision="master-pv" groups="toolchain"/>
