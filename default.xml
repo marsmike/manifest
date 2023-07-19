@@ -9,8 +9,8 @@
   <default revision="refs/heads/main" remote="github" />
 
   <project name="MAIK" remote="github" path="ai/MAIK" revision="main" groups="general"/>
-  <project name="docker" remote="github" path="toolchain/docker" revision="master-pv" groups="toolchain"/>
-  <project name="docker" remote="github" path="toolchain/setup-ubuntu" revision="master-pv" groups="toolchain"/>
+  <project name="docker" remote="github" path="toolchain/docker" revision="master" groups="toolchain"/>
+  <project name="setup-ubuntu" remote="github" path="toolchain/setup-ubuntu" revision="master" groups="toolchain"/>
   <project name="OE4T/linux-tegra-4.9" remote="github-generic" path="kernel/smm-jetson" revision="oe4t-patches-l4t-r32.4" clone-depth="10" groups="kernel"/>
   
 </manifest>
