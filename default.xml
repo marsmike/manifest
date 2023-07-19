@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/marsmike/" />
+  <remote  name="github-generic"
+           fetch="https://github.com/" />
+
+  <default revision="refs/heads/master" remote="github" />
+
+  <project name="MAIK" remote="github" path="ai/MAIK" revision="main" groups="general"/>
+  <project name="docker" remote="github" path="toolchain/docker" revision="master-pv" groups="toolchain"/>
+  <project name="docker" remote="github" path="toolchain/setup-ubuntu" revision="master-pv" groups="toolchain"/>
+  <project name="OE4T/linux-tegra-4.9" remote="github-generic" path="kernel/smm-jetson" revision="oe4t-patches-l4t-r32.4" clone-depth="10" groups="kernel"/>
+  
+</manifest>
